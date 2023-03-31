@@ -1,0 +1,177 @@
+body {
+    display: flex;
+}
+
+
+
+/* Typography */
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+}
+
+
+p {
+    font-size: 1rem;
+    text-align: left;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+}
+
+@media(min-width:500px) {
+    p {
+        margin: 0;
+    }
+}
+
+
+
+
+.b-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.b-2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.b-3 {
+    color: hsl(179, 100%, 13%);
+}
+
+
+/* Containers */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+@media(min-width:500px) {
+    .main-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 6em;
+
+    }
+}
+
+
+.list-1 {
+    background-color: hsl(31, 77%, 52%);
+    max-width: 12em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 2em;
+    padding-right: 1em;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+@media(min-width:500px) {
+    .list-1 {
+        height: 25em;
+        border-bottom-left-radius: 6px;
+        border-top-right-radius: 0px;
+
+    }
+}
+
+
+
+
+
+
+
+.list-2 {
+    background-color: hsl(184, 100%, 22%);
+    max-width: 12em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 2em;
+    padding-right: 1em;
+}
+
+@media(min-width:500px) {
+    .list-2 {
+        height: 25em;
+    }
+}
+
+
+
+.list-3 {
+    background-color: hsl(179, 100%, 13%);
+    max-width: 12em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 2em;
+    padding-right: 1em;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+@media(min-width:500px) {
+    .list-3 {
+        height: 25em;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 6px;
+    }
+}
+
+
+
+
+
+
+
+/* Button  */
+.btn {
+    width: 8em;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    border-radius: 50px;
+    border: none;
+}
+
+@media(min-width:500px) {
+    .btn {
+        margin-top: 4em;
+    }
+}
+
+.btn:hover {
+    background: none;
+    color: #fff;
+
+    border: 1px solid #fff;
+}
+
+span:hover {
+    color: #fff;
+}
+
+.attribution {
+    display: none;
+}
+
+@media(min-width:500px) {
+    .attribution {
+        display: flex;
+        position: absolute;
+        top: 95%;
+        margin-left: 30em;
+    }
+}
